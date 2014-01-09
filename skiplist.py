@@ -51,9 +51,9 @@ class SkipList(object):
         if key == top.key:
             return None
         if top.down == None:
-        	node = Node(key, value)
-        	node.right = top.right
-        	top.right = node
+            node = Node(key, value)
+            node.right = top.right
+            top.right = node
             return node
         downnode = searchNode(top.down, key, value)
         if downnode:
