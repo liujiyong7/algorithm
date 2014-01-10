@@ -90,8 +90,8 @@ class SkipList(object):
         return k
 
 def printNode(node):
-	print "level="+str(node.level)+" key="+str(node.key)+" value="+str(node.value)
-	pass
+    print "level="+str(node.level)+" key="+str(node.key)+" value="+str(node.value)
+    pass
 if __name__ == '__main__':
     skiplist = SkipList()
     for x in xrange(1,10):
